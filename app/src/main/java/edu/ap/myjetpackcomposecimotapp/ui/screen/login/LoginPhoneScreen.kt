@@ -96,9 +96,9 @@ fun LoginPhoneScreen(navController: NavHostController, phone: String) {
                     }
                 )
             },
-            content = { innerPading ->
-                Box(modifier = Modifier.padding(innerPading)) {
-                    LazyColumn(contentPadding = innerPading) {
+            content = { innerPadding ->
+                Box(modifier = Modifier.padding(innerPadding)) {
+                    LazyColumn(contentPadding = innerPadding) {
                         /**
                          * space between navigation and title
                          * **/

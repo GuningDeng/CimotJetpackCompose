@@ -90,7 +90,7 @@ fun ModalBottomSheetDialog(
                 modifier = Modifier
                     .fillMaxWidth()
                     .wrapContentHeight()
-                    .padding(0.dp, 0.dp, 0.dp, 20.dp)
+                    .padding(0.dp, 0.dp, 0.dp, 16.dp)
             ) {
                 titles.forEachIndexed { index, title ->
                     Box(
@@ -116,7 +116,7 @@ fun ModalBottomSheetDialog(
                 }
                 Spacer(
                     modifier = Modifier
-                        .height(10.dp)
+                        .height(8.dp)
                         .fillMaxWidth()
                         .background(Color(0xffF7F7F7))
                 )

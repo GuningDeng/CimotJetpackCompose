@@ -11,3 +11,4 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val Grey900 = Color(0xFF212121)
+val NavBackground = Color(0xFFEDEDED)

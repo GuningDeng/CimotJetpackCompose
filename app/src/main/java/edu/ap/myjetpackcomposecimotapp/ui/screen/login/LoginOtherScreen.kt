@@ -121,7 +121,7 @@ fun LoginOtherScreen(navController: NavHostController) {
                                 contentAlignment = Alignment.Center
                             ) {
                                 Text(
-                                    text = if (isPhone) "login by phone" else "/login by email",
+                                    text = if (isPhone) "Login by phone" else "Login by email",
                                     fontSize = 20.sp
                                 )
                             }
@@ -163,7 +163,7 @@ fun LoginOtherScreen(navController: NavHostController) {
                                     modifier = Modifier.fillMaxWidth(),
                                     placeholder = {
                                         Text(
-                                            text = if (!isPhone) "enter Facebook/..." else "(+32)",
+                                            text = if (!isPhone) "enter Facebook/Gmail/..." else "(+32)",
                                             fontSize = 16.sp,
                                             color = Color(0xff888888)
                                         )
@@ -218,7 +218,7 @@ fun LoginOtherScreen(navController: NavHostController) {
                                     modifier = Modifier.fillMaxWidth(),
                                     placeholder = {
                                         Text(
-                                            text = if (isPhone) "Please fill in your phone number" else "Please fill in the password",
+                                            text = if (isPhone) "Please fill in phone number" else "Please fill in the password",
                                             fontSize = 16.sp,
                                             color = Color(0xff888888),
                                         )
@@ -228,7 +228,7 @@ fun LoginOtherScreen(navController: NavHostController) {
                         }
                         item {
                             Text(
-                                text = if (!isPhone) "Log in by phone number" else "email/...",
+                                text = if (!isPhone) "Log in by phone number" else "email/Facebook/Gmail/...",
                                 fontSize = 16.sp,
                                 color = Color(0xff5F6594),
                                 modifier = Modifier
@@ -271,7 +271,7 @@ fun LoginOtherScreen(navController: NavHostController) {
                                 contentAlignment = Alignment.Center
                             ) {
                                 Text(
-                                    text = if (isPhone) "This phone number for verify login" else "email/... verify login",
+                                    text = if (isPhone) "This phone number for verify login" else "email/Facebook/Gmail/... verify login",
                                     fontSize = 12.sp,
                                     color = Color(0xff888888)
                                 )
@@ -359,14 +359,9 @@ fun LoginOtherScreen(navController: NavHostController) {
                                 )
 
                             }
-
-
                         }
-
                     }
-
                 }
-
             }
         )
     }

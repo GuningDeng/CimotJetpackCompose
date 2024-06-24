@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
 import com.google.accompanist.insets.ProvideWindowInsets
+import edu.ap.myjetpackcomposecimotapp.ui.screen.home.HomeScreen
 import edu.ap.myjetpackcomposecimotapp.ui.theme.MyJetpackComposeCimotAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -66,6 +67,6 @@ fun GreetingPreview() {
 @Composable
 fun ComposeHomeUI() {
     ProvideWindowInsets {
-
+        HomeScreen()
     }
 }
